@@ -3,7 +3,7 @@ interface HomeProps {
 }
 
 export default function Home(props: HomeProps) {
-  return <h1>isso é a contagem retornada {props.count}</h1>;
+  return <h1 className='text-vio'>isso é a contagem retornada {props.count}</h1>;
 }
 
 export const getServerSideProps = async () => {
